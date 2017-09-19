@@ -96,6 +96,3 @@ replaceAtoB(prodVersion, regVersion, "version")
 if (_c.adminPass) replaceAtoB(prodAdminPass, regAdminPass, "admin pass", whereAminPass)
 if (_c.canPrintImage) replaceAtoB(prodPrintImage, regPrintImage, "print image")
 if (_c.homepage) replaceAtoB(prodHomePage, regHomePage, "homepage", whereHomePage)
-/////////////////////
-////Make some change to test submodule
-/////////
