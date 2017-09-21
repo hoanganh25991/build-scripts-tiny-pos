@@ -79,6 +79,9 @@ const uploadBatchFile = `
 #!/usr/bin/env bash
 -mkdir ${_c.uploadTo}
 -mkdir ${_c.uploadTo}/static
+# We have to add .htaccess put, cs buid/* NOT COVER it
+# Silently continue if put fail
+-put -R build/.htaccess ${_c.uploadTo}
 put -R build/* ${_c.uploadTo}
 exit`
 // Create upload batch file
